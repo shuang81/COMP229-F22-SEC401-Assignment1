@@ -1,3 +1,29 @@
-<div class="container">
-    <h1><%= title %></h1>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<body class="aboutbody">
+    <div class="homepage">
+        <p><%= title %> Me</p>
+    </div>
+
+    <div class="connection">
+        <form action="https://comp229-assignment-alan.herokuapp.com/home">
+            <h2>Let's get in touch</h2>
+                        <span class="span1"></span>
+            <input type="text" placeholder="First Name" id="firstname" class="inputform" size="25%">
+                        &nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Last Name" id="lastname" class="inputform" size="25%">
+                        <span class="span1"></span>
+            <input type="email" placeholder="Email Address" id="email" class="inputform" size="25%">
+                        &nbsp;&nbsp;&nbsp;
+            <input type="tel" placeholder="Phone Number" id="phone" class="inputform" size="25%">
+                        <span class="span"></span>
+            <label for="message" class="inputform">Message</label>
+                        <span class="span2"></span>
+            <textarea id="message" class="textarea" placeholder="I'd like to discuss buying, selling, renting with you." name="message" rows="5" cols="55"></textarea>
+                        <span class="span1"></span>
+            <button class="button" onclick="redirect()">SEND MESSAGE</button>
+        </form>
+    </div>
+
+</body>
+</html>

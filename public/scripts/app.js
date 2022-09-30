@@ -1,11 +1,6 @@
-//IIFE
-(function()
-{
+let button = document.getElementById("button");
 
-    function Start()
-    {
-        console.log("App Started!");
-    }
 
-    window.addEventListener('load', Start);
-})();
+function redirect(){
+    alert("THE MESSAGE WAS SENT SUCCESSFULLY  !")
+};

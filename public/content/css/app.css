@@ -9,6 +9,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     user-select: none;
+
 }
 .aboutphoto{
     width: auto;
@@ -18,6 +19,7 @@
     margin-right: auto;
     margin-top: 20px;
     user-select: none;
+    
 }
 .homephoto{
     width: auto;
@@ -65,4 +67,14 @@ img {
     -moz-user-drag: none;
     -o-user-drag: none;
     user-drag: none;
+}
+.connection {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+
+}
+body{
+    background-image: url(/content/images/background.jpg);
 }
