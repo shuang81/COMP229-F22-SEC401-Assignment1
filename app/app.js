@@ -18,7 +18,7 @@ import indexRouter from './routes/index.route.server.js'
 // Instantiate Express Application
 const app = express();
 
-// Set Up Middlewares
+// Set Up Middleware
 
 // Setup ViewEngine EJS
 app.set('views', path.join(__dirname, '/views'));
@@ -28,7 +28,6 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false}));
 app.use(cookieParser());
-// app.use(express.static(path.join(__dirname,'/client')));
 app.use(express.static(path.join(__dirname,'../public')));
 app.use(session({
     secret: Secret,

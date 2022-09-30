@@ -1,5 +1,5 @@
 export function displayHomePage(req, res, next) {
-    res.render('index', { title: 'Home', page: 'home', myName: 'Thiago'} );
+    res.render('index', { title: 'Home', page: 'home'} );
 };
 
 export function displayAboutPage(req, res, next) {
