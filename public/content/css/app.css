@@ -1,3 +1,9 @@
+/* 
+COMP 229 - Fall 2022 - Web Application Development
+Name: Huang Sheng Wen
+Student ID: 301215574
+*/
+
 .container-fluid{
     user-select: none;
 }
@@ -94,11 +100,44 @@ body{
     font-size: 20px;
 }
 .pagelist > ul {
-         display: inline-block;
+        display: inline-block;
 }
 li {
-text-align: left;
+        text-align: left;
 }
 .message{
     font-size: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.linkcolor{
+    color: 0000FF;
+}
+.project{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.project1{
+    text-align: center;
+    justify-content: left;
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.project2{
+    text-align: center;
+    justify-content: left;
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.project3{
+    height: 500px;
+    text-align: center;
+    justify-content: left;
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
 }
