@@ -19,10 +19,10 @@
         <br>
         <div class="pagelist">
             <ul>
-                <li><a href="https://comp229-assignment-alan.herokuapp.com/about">About Me</a></li>
-                <li><a href="https://comp229-assignment-alan.herokuapp.com/projects">My Projects</a></li>
-                <li><a href="https://comp229-assignment-alan.herokuapp.com/services">My Services</a></li>
-                <li><a href="https://comp229-assignment-alan.herokuapp.com/contact">Contact Me</a></li>
+                <li><a class="nav-link <%= (page == 'about') ? 'active' : ''; %>" aria-current="page" href="/about">About Me</a></li>
+                <li><a class="nav-link <%= (page == 'projects') ? 'active' : ''; %>" aria-current="page" href="/projects">My Projects</a></li>
+                <li><a class="nav-link <%= (page == 'services') ? 'active' : ''; %>" aria-current="page" href="/services">My services</a></li>
+                <li><a class="nav-link <%= (page == 'contact') ? 'active' : ''; %>" aria-current="page" href="/contact">Contact Me</a></li>
             </ul>
         </div>
 </body>
