@@ -1,15 +1,15 @@
 .container-fluid{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     user-select: none;
 }
 .container-fluid-footer{
     font-size: 14px;
     width: 100%;
     height: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     user-select: none;
-
+}
+.navbar fixed-bottom bg-light{
+    background-color: #212529;
 }
 .aboutphoto{
     width: auto;
@@ -19,7 +19,6 @@
     margin-right: auto;
     margin-top: 20px;
     user-select: none;
-    
 }
 .homephoto{
     width: auto;
@@ -32,7 +31,6 @@
 }
 .aboutintro{
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: auto;
     margin-right: auto;
     width: 45%;
@@ -42,11 +40,10 @@
 }
 .homeintro{
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: auto;
     margin-right: auto;
     width: 45%;
-    height: 450px;
+    height: auto;
     text-align: left;
     user-select: none;
 }
@@ -55,7 +52,6 @@
     text-align: center;
     margin: 20px;
     vertical-align: middle;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     user-select: none;
     font-weight: bolder;
     font-size: 36px;
@@ -72,9 +68,38 @@ img {
     width: 100%;
     height: auto;
     text-align: center;
-    padding-top: 30px;
-
+    margin-top: 30px;
 }
 body{
     background-image: url(/content/images/background.jpg);
+    width: auto;
+    background-size:cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.span {
+    display: block;
+    margin-bottom: 2em;
+}
+.span1 {
+    display: block;
+    margin-bottom: 30px;
+}
+.span2 {
+    display: block;
+    margin-bottom: 15px;
+}
+.pagelist {
+    text-align: center;
+    height: 200px;
+    font-size: 20px;
+
+}
+.pagelist > ul {
+         display: inline-block;
+}
+li {
+text-align: left;
+}
+.message{
+    font-size: 20px;
 }
